@@ -6,14 +6,11 @@
 }
   </style>
   <script>
-    let produrl = "http://localhost:5000/"
-    let dealerurl = "http://localhost:8080/"
-
-    axios.get(produrl+"products").then(res=>{
+    
+    http://localhost:5000/http://localhost:8080/    axios.get(produrl+"products").then(res=>{
       let selEl = document.createElement("select");
       selEl.setAttribute("id","selProd")
-      selEl.setAttribute("onChange","getDealers()")
-      let defaultOpt = document.createElement("option");
+      selEl.setAttribute("onChange","getDealers()")http://localhost:5000/      let defaultOpt = document.createElement("option");
       defaultOpt.setAttribute('value',"--SELECT--");
       defaultOpt.innerText = "--SELECT--";
       selEl.appendChild(defaultOpt);
@@ -99,4 +96,4 @@
 
 
 
-</html>
+</html>.
